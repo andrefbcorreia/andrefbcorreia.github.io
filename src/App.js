@@ -1,21 +1,18 @@
 import React from 'react';
-import { HashRouter, Route, Link } from "react-router-dom";
 
-const Home = () => <div><h2>Home</h2></div>
-const About = () => <div><h2>About</h2></div>
+import About from './components/about/About';
+import Experience from './components/experience/Experience';
+
+const Skills = () => <div>Skills</div>
+const SocialMedia = () => <div>Social Media</div>
 
 const App = () => (
-  <HashRouter basename='/'>
-    <div>
-      <ul>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/about">About</Link></li>
-      </ul>
-      <hr />
-      <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
-    </div>
-  </HashRouter>
+  <div>
+    <About />
+    <Experience />
+    <Skills />
+    <SocialMedia />
+  </div>
 );
 
 export default App;
