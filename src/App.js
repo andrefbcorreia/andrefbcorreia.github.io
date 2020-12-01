@@ -1,16 +1,27 @@
 import React from 'react';
 
+import Header from './components/header/Header';
 import About from './components/about/About';
 import Experience from './components/experience/Experience';
+import Skills from './components/skills/Skills';
 
-const Skills = () => <div>Skills</div>
+import './App.css';
+
 const SocialMedia = () => <div>Social Media</div>
 
 const App = () => (
-  <div>
-    <About />
-    <Experience />
-    <Skills />
+  <div className="app_container">
+    <Header />
+    <div>
+      <About />
+      <div className="app_child">
+        <Experience />
+        <Skills />
+      </div>
+    </div>
+    <div>
+      IMAGE HERE
+    </div>
     <SocialMedia />
   </div>
 );
