@@ -1,22 +1,20 @@
 {
   "files": {
     "main.css": "/andrefbcorreia.github.io/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/andrefbcorreia.github.io/static/js/main.324f6021.chunk.js",
-    "main.js.map": "/andrefbcorreia.github.io/static/js/main.324f6021.chunk.js.map",
-    "runtime-main.js": "/andrefbcorreia.github.io/static/js/runtime-main.61289c26.js",
-    "runtime-main.js.map": "/andrefbcorreia.github.io/static/js/runtime-main.61289c26.js.map",
-    "static/js/2.0e8a8b55.chunk.js": "/andrefbcorreia.github.io/static/js/2.0e8a8b55.chunk.js",
-    "static/js/2.0e8a8b55.chunk.js.map": "/andrefbcorreia.github.io/static/js/2.0e8a8b55.chunk.js.map",
-    "static/js/3.ffdd5e8e.chunk.js": "/andrefbcorreia.github.io/static/js/3.ffdd5e8e.chunk.js",
-    "static/js/3.ffdd5e8e.chunk.js.map": "/andrefbcorreia.github.io/static/js/3.ffdd5e8e.chunk.js.map",
+    "main.js": "/andrefbcorreia.github.io/static/js/main.07cedddc.chunk.js",
+    "main.js.map": "/andrefbcorreia.github.io/static/js/main.07cedddc.chunk.js.map",
+    "runtime-main.js": "/andrefbcorreia.github.io/static/js/runtime-main.4d336beb.js",
+    "runtime-main.js.map": "/andrefbcorreia.github.io/static/js/runtime-main.4d336beb.js.map",
+    "static/js/2.64fc98de.chunk.js": "/andrefbcorreia.github.io/static/js/2.64fc98de.chunk.js",
+    "static/js/2.64fc98de.chunk.js.map": "/andrefbcorreia.github.io/static/js/2.64fc98de.chunk.js.map",
     "index.html": "/andrefbcorreia.github.io/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/andrefbcorreia.github.io/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.0e8a8b55.chunk.js.LICENSE.txt": "/andrefbcorreia.github.io/static/js/2.0e8a8b55.chunk.js.LICENSE.txt"
+    "static/js/2.64fc98de.chunk.js.LICENSE.txt": "/andrefbcorreia.github.io/static/js/2.64fc98de.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.61289c26.js",
-    "static/js/2.0e8a8b55.chunk.js",
+    "static/js/runtime-main.4d336beb.js",
+    "static/js/2.64fc98de.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.324f6021.chunk.js"
+    "static/js/main.07cedddc.chunk.js"
   ]
 }
