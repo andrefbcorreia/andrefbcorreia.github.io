@@ -19,9 +19,6 @@ const App = () => (
         <Skills />
       </div>
     </div>
-    <div>
-      IMAGE HERE
-    </div>
     <SocialMedia />
   </div>
 );

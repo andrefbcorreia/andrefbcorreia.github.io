@@ -4,9 +4,9 @@
 
 .title {
   color: rgb(66, 62, 88);
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 10px;
+  font-size: 22px;
+  font-family: Cairo-Bold;
+  margin-left: 5px;
 }
 .list {
   display: flex;

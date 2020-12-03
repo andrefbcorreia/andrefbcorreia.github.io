@@ -1,16 +1,23 @@
 .about_container {
-  margin: 10px;
+  
+}
+.about_title {
+  font-family: Cairo-Light;
+  font-size: 36px;
 }
 
-.title {
-  color: rgb(66, 62, 88);
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 10px;
+.about_title_me {
+  font-family: Cairo-Bold;
+  color: rgb(84, 175, 191);
 }
-.list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 400px;
+
+.about_subtitle {
+  font-family: Cairo-SemiBold;
+  font-size: 18px;
+  padding-bottom: 16px;
+}
+
+.about_description {
+  font-size: 14px;
+  color: rgb(136, 133, 158);
 }

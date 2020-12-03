@@ -4,14 +4,18 @@ import Badge from '../shared/badges/Badge';
 import './Skills.css';
 
 const SKILLS = [
-  "AAAAA",
-  "BBBBB",
-  "CCCCC",
-  "DDDDD",
-  "AAAAA",
-  "BBBBB",
-  "CCCCC",
-  "DDDDD",
+  "React JS",
+  "Redux",
+  "Hooks",
+  "Node JS",
+  "Ruby On Rails",
+  "RSpec",
+  "Capybara",
+  "Enzyme",
+  "MySql",
+  "PostgreSQL",
+  "Git",
+  "Code Review",
 ];
 
 const Skills = () => (

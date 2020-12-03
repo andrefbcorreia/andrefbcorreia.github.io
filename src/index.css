@@ -1,10 +1,29 @@
+@font-face {
+  font-family: Cairo-Regular;
+  src: url('./fonts/Cairo-Regular.ttf');
+}
+
+@font-face {
+  font-family: Cairo-Bold;
+  src: url('./fonts/Cairo-Bold.ttf');
+}
+
+@font-face {
+  font-family: Cairo-SemiBold;
+  src: url('./fonts/Cairo-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: Cairo-Light;
+  src: url('./fonts/Cairo-Light.ttf');
+}
+
 body {
   margin: 0;
   width: 100%;
   height: 100vh;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: Cairo-Regular, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  border-color: rgb(245, 245, 245);
+  line-height: 1.3;
 }
