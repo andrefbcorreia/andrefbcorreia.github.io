@@ -1,26 +1,29 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Switch,
+} from "react-router-dom";
 
-import Header from './components/header/Header';
-import About from './components/about/About';
-import Experience from './components/experience/Experience';
-import Skills from './components/skills/Skills';
+import Home from './components/pages/home/Home';
+import Contacts from './components/pages/contacts/Contacts';
 
 import './App.css';
 
-const SocialMedia = () => <div>Social Media</div>
-
 const App = () => (
-  <div className="app_container">
-    <Header />
+  <Router>
     <div>
-      <About />
-      <div className="app_child">
-        <Experience />
-        <Skills />
-      </div>
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/contacts">Contacts</Link></li>
+      </ul>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/contacts" component={Contacts} />
+      </Switch>
     </div>
-    <SocialMedia />
-  </div>
+  </Router>
 );
 
 export default App;

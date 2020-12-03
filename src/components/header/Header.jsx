@@ -10,8 +10,8 @@ const Header = () => (
         <span className="header_title_o">o</span>
       </div>
       <div>
-        <span>A</span>
-        <span>B</span>
+        <span>Home</span>
+        <span>Contact</span>
       </div>
     </div>
   </div>

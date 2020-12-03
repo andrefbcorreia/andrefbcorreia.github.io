@@ -1,8 +1,8 @@
 .about_container {
-  
 }
 .about_title {
-  font-family: Cairo-Light;
+  font-family: Cairo-Regular;
+  color: rgb(66, 62, 88);
   font-size: 36px;
 }
 
