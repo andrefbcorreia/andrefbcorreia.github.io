@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/andrefbcorreia.github.io/static/css/main.24fe8d5a.chunk.css",
-    "main.js": "/andrefbcorreia.github.io/static/js/main.ce0e3a56.chunk.js",
-    "main.js.map": "/andrefbcorreia.github.io/static/js/main.ce0e3a56.chunk.js.map",
+    "main.js": "/andrefbcorreia.github.io/static/js/main.41d783b6.chunk.js",
+    "main.js.map": "/andrefbcorreia.github.io/static/js/main.41d783b6.chunk.js.map",
     "runtime-main.js": "/andrefbcorreia.github.io/static/js/runtime-main.4d336beb.js",
     "runtime-main.js.map": "/andrefbcorreia.github.io/static/js/runtime-main.4d336beb.js.map",
-    "static/js/2.71c198de.chunk.js": "/andrefbcorreia.github.io/static/js/2.71c198de.chunk.js",
-    "static/js/2.71c198de.chunk.js.map": "/andrefbcorreia.github.io/static/js/2.71c198de.chunk.js.map",
+    "static/js/2.710784fd.chunk.js": "/andrefbcorreia.github.io/static/js/2.710784fd.chunk.js",
+    "static/js/2.710784fd.chunk.js.map": "/andrefbcorreia.github.io/static/js/2.710784fd.chunk.js.map",
     "index.html": "/andrefbcorreia.github.io/index.html",
     "static/css/main.24fe8d5a.chunk.css.map": "/andrefbcorreia.github.io/static/css/main.24fe8d5a.chunk.css.map",
-    "static/js/2.71c198de.chunk.js.LICENSE.txt": "/andrefbcorreia.github.io/static/js/2.71c198de.chunk.js.LICENSE.txt",
+    "static/js/2.710784fd.chunk.js.LICENSE.txt": "/andrefbcorreia.github.io/static/js/2.710784fd.chunk.js.LICENSE.txt",
     "static/media/index.css": "/andrefbcorreia.github.io/static/media/Cairo-SemiBold.0d18a3d1.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.4d336beb.js",
-    "static/js/2.71c198de.chunk.js",
+    "static/js/2.710784fd.chunk.js",
     "static/css/main.24fe8d5a.chunk.css",
-    "static/js/main.ce0e3a56.chunk.js"
+    "static/js/main.41d783b6.chunk.js"
   ]
 }
