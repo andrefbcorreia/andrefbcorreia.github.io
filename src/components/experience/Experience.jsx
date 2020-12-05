@@ -12,7 +12,7 @@ const Experience = () => (
   <div className="experience_container">
     <div className="experience_title">Experience</div>
     <div className="experience_subtitle">
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      I've been manly working as a fullstack guy.
     </div>
     <div>
       {EXPERIENCES.map((exp, key) => (

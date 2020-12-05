@@ -26,7 +26,7 @@ const Header = () => (
         <span className="header_title">Portfoli</span>
         <span className="header_title_o">o</span>
       </div>
-      <div>
+      <div className="header_link_content">
         <CustomLink to="/" label="Home" exact/>
         <CustomLink to="/contacts" label="Contacts" />       
       </div>

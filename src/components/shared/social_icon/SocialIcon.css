@@ -1,0 +1,16 @@
+a {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+  width: 36px;
+  height: 36px;
+  fill: rgb(66, 62, 88);
+}
+
+svg:hover {
+  fill: rgb(84, 175, 191);;
+}

@@ -1,12 +1,22 @@
 import React from 'react';
+import SocialIcon from '../shared/social_icon/SocialIcon';
+import { ReactComponent as GithubIcon } from '../../svgs/github.svg';
+import { ReactComponent as LinkedinIcon } from '../../svgs/linkedin.svg';
+import { ReactComponent as InstagramIcon } from '../../svgs/instagram.svg'
 
 import './SocialMedia.css';
 
 const SocialMedia = () => (
   <div className="social_media_container">
-    <p>Linkedin</p>
-    <p>Github</p>
-    <p>Instagram</p>
+    <SocialIcon link="https://www.linkedin.com/in/andrefbcorreia/">
+      <LinkedinIcon />
+    </SocialIcon>
+    <SocialIcon link="https://github.com/andrefbcorreia">
+      <GithubIcon />
+    </SocialIcon>
+    <SocialIcon link="https://www.instagram.com/andrecorreia__/">
+      <InstagramIcon />
+    </SocialIcon> 
   </div>
 );
 
