@@ -7,6 +7,21 @@
 
 .app_content {
   display: flex;
+  flex: 1;
+}
+
+.a1 {
+  flex: 1;
+  padding: 0 75px
+}
+
+.a2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100vh;
+
 }
 
 .app_child {

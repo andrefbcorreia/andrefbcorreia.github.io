@@ -1,16 +1,13 @@
-.about_container {
-  margin: 10px;
-}
-
-.title {
+.skills_title {
   color: rgb(66, 62, 88);
   font-size: 22px;
   font-family: Cairo-Bold;
   margin-left: 5px;
 }
-.list {
+.skills_list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 400px;
+  width: 350px;
+  padding-top: 10px;
 }

@@ -1,21 +1,21 @@
 @font-face {
   font-family: Cairo-Regular;
-  src: url('./fonts/Cairo-Regular.ttf');
+  src: url('./fonts/cairo/Cairo-Regular.ttf');
 }
 
 @font-face {
   font-family: Cairo-Bold;
-  src: url('./fonts/Cairo-Bold.ttf');
+  src: url('./fonts/cairo/Cairo-Bold.ttf');
 }
 
 @font-face {
   font-family: Cairo-SemiBold;
-  src: url('./fonts/Cairo-SemiBold.ttf');
+  src: url('./fonts/cairo/Cairo-SemiBold.ttf');
 }
 
 @font-face {
   font-family: Cairo-Light;
-  src: url('./fonts/Cairo-Light.ttf');
+  src: url('./fonts/cairo/Cairo-Light.ttf');
 }
 
 body {

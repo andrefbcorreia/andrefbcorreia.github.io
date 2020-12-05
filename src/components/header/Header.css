@@ -9,7 +9,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
+  padding: 0 75px;
 }
 
 .header_title {
@@ -21,5 +21,20 @@
 .header_title_o {
   font-family: Cairo-Bold;
   font-size: 22px;
+  color: rgb(84, 175, 191);
+}
+
+.menu_btn {
+  text-decoration: none;
+  color: rgb(66, 62, 88);
+  font-family: Cairo-Bold;
+  padding: 0 30px;
+}
+
+.menu_btn:hover {
+  color: rgb(84, 175, 191); 
+}
+
+.active {
   color: rgb(84, 175, 191);
 }

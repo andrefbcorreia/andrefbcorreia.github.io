@@ -4,6 +4,7 @@ import Badge from '../shared/badges/Badge';
 import './Skills.css';
 
 const SKILLS = [
+  "Javascript",
   "React JS",
   "Redux",
   "Hooks",
@@ -12,16 +13,16 @@ const SKILLS = [
   "RSpec",
   "Capybara",
   "Enzyme",
-  "MySql",
   "PostgreSQL",
+  "MySQL",
   "Git",
   "Code Review",
 ];
 
 const Skills = () => (
-  <div className="about_container">
-    <div className="title">What Skill I have</div>
-    <div className="list">
+  <div className="skills_container">
+    <div className="skills_title">Languages, Frameworks & Tools</div>
+    <div className="skills_list">
       {SKILLS.map((skill, key) => (
         <Badge key={key} skill={skill} />
       ))}
