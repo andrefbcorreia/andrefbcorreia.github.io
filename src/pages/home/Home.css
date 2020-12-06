@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100vh;
 }
 
 .app_content {
@@ -12,7 +11,7 @@
 
 .a1 {
   flex: 1;
-  padding: 0 75px
+  padding: 0 75px;
 }
 
 .a2 {
@@ -20,11 +19,79 @@
   justify-content: center;
   align-items: center;
   flex: 1;
-  height: 100vh;
-
 }
 
 .app_child {
   display: flex;
   justify-content: space-between;
+}
+
+/* .line_container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8px;
+} */
+
+/* .line {
+  width: 240px;
+  height: 2px;
+  background-color: rgb(235, 235, 235);;
+  border-radius: 20px;
+} */
+
+@media screen and (max-width: 800px) {
+  .header_content {
+    padding: 0 16px;
+  }
+
+  .menu_btn {
+    padding: 0 4px;
+  }
+
+  .a1 {
+    padding: 0 16px; 
+  }
+
+  .about_container {
+    padding-bottom: 8px;
+  }
+
+  .about_title {
+    font-size: 24px;
+  }
+
+  .about_subtitle {
+    font-size: 15px;
+  }
+
+  .about_description {
+    font-size: 14px;
+  }
+
+  .experience_container {
+    padding: 8px 0;
+  }
+
+  .skills_container {
+    padding: 8px 0;
+  }
+
+  .skills_list {
+    width: 100%;
+  }
+
+  .social_media_container {
+    padding: 8px 0 24px 0;
+  }
+
+  .a2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .app_child {
+    display: flex;
+    flex-direction: column;
+  }
 }

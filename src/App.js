@@ -13,12 +13,14 @@ import './App.css';
 
 const App = () => (
   <Router>
-    <div>
+    <div className="wrapper">
       <Header />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/contacts" component={Contacts} />
-      </Switch>
+      <div className="content">
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/contacts" component={Contacts} />
+        </Switch>
+      </div>
     </div>
   </Router>
 );
