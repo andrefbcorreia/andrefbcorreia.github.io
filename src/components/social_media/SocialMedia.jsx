@@ -1,8 +1,8 @@
 import React from 'react';
 import SocialIcon from '../shared/social_icon/SocialIcon';
-import { ReactComponent as GithubIcon } from '../../svgs/github.svg';
-import { ReactComponent as LinkedinIcon } from '../../svgs/linkedin.svg';
-import { ReactComponent as InstagramIcon } from '../../svgs/instagram.svg'
+import { ReactComponent as GithubIcon } from '../../assets/svgs/github.svg';
+import { ReactComponent as LinkedinIcon } from '../../assets/svgs/linkedin.svg';
+import { ReactComponent as InstagramIcon } from '../../assets/svgs/instagram.svg'
 
 import './SocialMedia.css';
 

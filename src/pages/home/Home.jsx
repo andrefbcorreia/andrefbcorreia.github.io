@@ -1,9 +1,9 @@
 import React from 'react';
 
-import About from '../../../components/about/About';
-import Experience from '../../../components/experience/Experience';
-import Skills from '../../../components/skills/Skills';
-import SocialMedia from '../../../components/social_media/SocialMedia';
+import About from '../../components/about/About';
+import Experience from '../../components/experience/Experience';
+import Skills from '../../components/skills/Skills';
+import SocialMedia from '../../components/social_media/SocialMedia';
 
 import './Home.css';
 
