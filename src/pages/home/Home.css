@@ -24,20 +24,24 @@
 .app_child {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 60px;
 }
 
-/* .line_container {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 8px;
-} */
+@media screen and (max-width: 1600px) {
+  .app_child {
+    display: flex;
+    flex-direction: column;
+  }
 
-/* .line {
-  width: 240px;
-  height: 2px;
-  background-color: rgb(235, 235, 235);;
-  border-radius: 20px;
-} */
+  .skills_container {
+    padding: 8px 0;
+  }
+
+  .about_container {
+    padding-bottom: 16px;
+    padding-top: 0;
+  } 
+}
 
 @media screen and (max-width: 800px) {
   .header_content {
@@ -89,9 +93,17 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-height: 900px) {
+  .about_container {
+    padding-bottom: 16px;
+    padding-top: 0;
+  }
+
   .app_child {
-    display: flex;
-    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .a1 {
+    padding: 0 16px; 
   }
 }

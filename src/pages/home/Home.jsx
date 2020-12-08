@@ -16,9 +16,6 @@ const Home = () => (
           <Experience />
           <Skills />
         </div>
-        <div className="line_container">
-          <div className="line" />
-        </div>
         <SocialMedia />
       </div>
       <div className="a2">
