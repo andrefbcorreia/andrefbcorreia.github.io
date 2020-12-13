@@ -1,0 +1,9 @@
+.btn {
+  background-color: rgb(84, 175, 191);
+  border-radius: 5px;
+}
+
+.btn_label {
+  color: white;
+  padding: 0 12px;
+}
