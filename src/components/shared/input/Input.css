@@ -1,11 +1,18 @@
 input[type=text], input[type=email] {
   width: 100%;
-  padding: 10px 12px;
+  padding: 6px 12px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  font-size: 16px;
+  font-family: Cairo-Regular;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid rgb(84, 175, 191);
 }
 
 input:hover {

@@ -1,9 +1,16 @@
 .btn {
   background-color: rgb(84, 175, 191);
-  border-radius: 5px;
+  border-radius: 6px;
+  display: flex;
+  border: 1px solid rgb(84, 175, 191);
+  cursor: pointer;
 }
 
 .btn_label {
   color: white;
-  padding: 0 12px;
+  padding: 6px 12px;
+  font-size: 16px;
+  font-family: Cairo-Regular;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }

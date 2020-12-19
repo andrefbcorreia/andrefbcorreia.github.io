@@ -37,7 +37,7 @@ const Contacts = () => {
             placeholder="Email"
           />
           <TextArea 
-            name="name"
+            name="message"
             value={input.message}
             onChange={onChange}
             placeholder="Enter your message ..."

@@ -1,10 +1,18 @@
 textarea {
   width: 100%;
-  padding: 10px 12px;
+  padding: 6px 12px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   resize: none;
+  font-size: 16px;
+  font-family: Cairo-Regular;
+  cursor: pointer;
+}
+
+textarea:focus {
+  outline: none;
+  border: 1px solid rgb(84, 175, 191);
 }

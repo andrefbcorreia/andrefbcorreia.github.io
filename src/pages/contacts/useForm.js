@@ -1,7 +1,13 @@
 import { useState } from 'react';
 
-const useForm = (name = '', email = '', message = '') => {
-  const [input, setInput] = useState({ name, email, message });
+const initialState = {
+  name: '',
+  email: '',
+  message: '',
+};
+
+const useForm = (state = initialState) => {
+  const [input, setInput] = useState(state);
 
   const onChange = (e) => {
     setInput((state) => ({
