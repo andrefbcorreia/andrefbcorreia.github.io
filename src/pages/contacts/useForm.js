@@ -1,22 +1,78 @@
 import { useState } from 'react';
 
-const initialState = {
-  name: '',
-  email: '',
-  message: '',
-};
+const validateEmail = (value) => (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(value));
 
-const useForm = (state = initialState) => {
-  const [input, setInput] = useState(state);
+const toObject = (array) => {
+  let rv = {};
+
+  for(let i = 0; i < array.length; i++) {
+    const id = array[i].id;
+    rv[id] = {
+      value: '',
+      validations: array[i].validations,
+      errors: [],
+    }
+  }
+
+  return rv;
+}
+
+const useForm = (state) => { 
+  const object = toObject(state);
+  const [input, setInput] = useState(object)
 
   const onChange = (e) => {
     setInput((state) => ({
       ...state,
-      [e.target.name]: e.target.value
+      [e.target.name]: {
+        ...state[e.target.name],
+        value: e.target.value,
+      },
     }))
   };
-  
-  return [input, onChange];
+
+  const checkValidation = (key, validationId, validationValue = 0) => {
+    const currentValue = input[key].value;
+    switch(validationId) {
+      case 'required':
+        return currentValue.length === 0;
+      case 'emailFormat':
+        return !validateEmail(currentValue);
+        case 'minLength':
+          return currentValue.length < validationValue;
+      default:
+      return false;
+    }
+  }
+
+  const isValidInput = () => {
+    let newInputState = {};
+    let isValid = true;
+
+    for (const [key, value] of Object.entries(input)) {
+      let searchErrors = [];
+      value.validations.forEach((validation) => {
+        const hasError = checkValidation(key, validation.id, validation.value);
+        if (hasError) {
+          searchErrors.push(validation.message);
+        }
+      });
+
+      if(searchErrors.length > 0) {
+        isValid = false;
+      };
+
+      newInputState[key] = {
+        ...value,
+        errors: searchErrors,
+      };
+    }
+    
+    setInput(newInputState);
+    return isValid;
+  }
+
+  return [input, onChange, isValidInput];
 };
 
 export default useForm;

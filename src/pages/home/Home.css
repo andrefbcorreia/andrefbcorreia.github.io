@@ -27,7 +27,7 @@
   padding-bottom: 60px;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1400px) {
   .app_child {
     display: flex;
     flex-direction: column;
@@ -93,7 +93,7 @@
   }
 }
 
-@media screen and (max-height: 900px) {
+@media screen and (max-height: 200px) {
   .about_container {
     padding-bottom: 16px;
     padding-top: 0;

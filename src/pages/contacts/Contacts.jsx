@@ -1,21 +1,22 @@
 import React from 'react';
 import Button from '../../components/shared/button/Button';
-import Input from '../../components/shared/input/Input';
-import TextArea from '../../components/shared/text_area/TextArea';
+import InputForm from '../../components/shared/input_form/InputForm';
 
+import formFields from './formFields';
 import useForm from './useForm';
 
 import './Contacts.css';
 
 const Contacts = () => {
-  const [input, onChange] = useForm();
-
-  console.log(input);
+  const [input, onChange, isValidInput] = useForm(formFields);
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    console.log("handle Form submit");
-    console.log(input);
+    if (isValidInput()) {
+      // TODO: Send email
+      alert("Is valid: make request");
+    } 
+    console.log(input)
   };
 
   return (
@@ -23,22 +24,25 @@ const Contacts = () => {
       <div>
         <h1>Lets talk</h1>
         <form onSubmit={handleFormSubmit}>
-          <Input
+          <InputForm 
+            object={input.name}
             name="name"
-            value={input.name}
+            input_type="input"
             onChange={onChange}
             placeholder="Name"
           />
-          <Input
+          <InputForm
+            object={input.email}
             name="email"
-            type="email"
-            value={input.email}
+            input_type="input"
+            value={input.email.value}
             onChange={onChange}
             placeholder="Email"
           />
-          <TextArea 
+          <InputForm
+            object={input.message}
             name="message"
-            value={input.message}
+            input_type="textarea"
             onChange={onChange}
             placeholder="Enter your message ..."
           />
@@ -46,7 +50,7 @@ const Contacts = () => {
             type="submit"
             label="Submit"
           />
-        </form> 
+        </form>  
       </div>
     </div>
   );
