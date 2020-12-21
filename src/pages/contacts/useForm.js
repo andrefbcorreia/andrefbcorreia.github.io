@@ -72,7 +72,14 @@ const useForm = (state) => {
     return isValid;
   }
 
-  return [input, onChange, isValidInput];
+  const reset = () => setInput(object);
+
+  return [
+    input,
+    onChange,
+    isValidInput,
+    reset,
+  ];
 };
 
 export default useForm;

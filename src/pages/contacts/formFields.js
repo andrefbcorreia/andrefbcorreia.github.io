@@ -4,7 +4,7 @@ const inputs = [
     validations: [
       { 
         id: 'required',
-        message: 'The fields is required' 
+        message: 'This field is required.' 
       },
     ], 
   },
@@ -13,11 +13,11 @@ const inputs = [
     validations: [
       { 
         id: 'required',
-        message: 'The fields is required'
+        message: 'This field is required.'
       },
       {
         id: 'emailFormat',
-        message: 'Wrong email format'
+        message: 'Wrong email format.'
       },
     ],
   },
@@ -26,11 +26,11 @@ const inputs = [
     validations: [
       { 
         id: 'required',
-        message: 'The fields is required'
+        message: 'This field is required'
       },
       { id: 'minLength',
         value: 20,
-        message: 'Minimum number of characters'
+        message: 'Minimum number of characters: 20'
       },
     ], 
   },

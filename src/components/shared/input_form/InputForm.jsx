@@ -17,7 +17,7 @@ const InputForm = ({
   const renderErrors = () => {
     if (object.errors && object.errors.length > 0) {
       return object.errors.map((error, key) => (
-        <p key={key} className="error_label">- {error}</p>
+        <p key={key} className="error_label">{error}</p>
       ));
     }
 

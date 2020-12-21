@@ -4,6 +4,7 @@
   display: flex;
   border: 1px solid rgb(84, 175, 191);
   cursor: pointer;
+  margin: 16px auto;
 }
 
 .btn_label {

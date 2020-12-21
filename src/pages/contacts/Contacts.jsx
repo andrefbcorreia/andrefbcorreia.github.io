@@ -8,15 +8,14 @@ import useForm from './useForm';
 import './Contacts.css';
 
 const Contacts = () => {
-  const [input, onChange, isValidInput] = useForm(formFields);
+  const [input, onChange, isValidInput, reset] = useForm(formFields);
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
     if (isValidInput()) {
-      // TODO: Send email
-      alert("Is valid: make request");
+      alert("This feature is not working right now");
+      reset();
     } 
-    console.log(input)
   };
 
   return (
@@ -30,7 +29,7 @@ const Contacts = () => {
             input_type="input"
             onChange={onChange}
             placeholder="Name"
-          />
+            />
           <InputForm
             object={input.email}
             name="email"
@@ -38,19 +37,19 @@ const Contacts = () => {
             value={input.email.value}
             onChange={onChange}
             placeholder="Email"
-          />
+            />
           <InputForm
             object={input.message}
             name="message"
             input_type="textarea"
             onChange={onChange}
             placeholder="Enter your message ..."
-          />
+            />
           <Button 
             type="submit"
             label="Submit"
-          />
-        </form>  
+            />
+        </form>
       </div>
     </div>
   );

@@ -15,7 +15,8 @@ const About = () => (
       </p>
       <p>
         In high school, I started to enjoy programming and that's why I took <span>Computer Science</span> in 
-        <span> FCT NOVA Lisboa</span>, where I develop some skills and love for creating beautiful and functional platform products.
+        <span> FCT NOVA Lisboa</span>, where I develop my knowledge base and passion for building beautiful and 
+        functional platform products.
       </p>
       <p>
         I've been mainly working as a <span>full stack</span> developer with technologies such as <span>React JS</span>, 
@@ -23,7 +24,8 @@ const About = () => (
         teamwork, unit tests and code reviews.
       </p>
       <p>
-        Besides that, I love to travel, going to the beach, hanging out with friends, play football and computer games.
+        Besides that, I love to travel, going to the beach, gym, hanging out with friends, watch series,
+        play football and computer games.
       </p>
     </div>
   </div>
