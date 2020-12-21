@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../../assets/a.jpg';
 
 import About from '../../components/about/About';
 import Experience from '../../components/experience/Experience';
@@ -19,7 +20,7 @@ const Home = () => (
         <SocialMedia />
       </div>
       <div className="a2">
-        Image here
+        <img className="a2-img" src={logo} alt='' />
       </div>
     </div>
   </div>

@@ -1,6 +1,6 @@
 .about_container {
-  padding-top: 40px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .about_title {
@@ -24,4 +24,14 @@
 .about_description {
   font-size: 16px;
   color: rgb(136, 133, 158);
+}
+
+.about_description p {
+  margin: 8px 0;
+  color: rgb(66, 62, 88);
+}
+
+.about_description p span {
+  font-family: Cairo-Bold;
+  color: rgb(84, 175, 191);
 }

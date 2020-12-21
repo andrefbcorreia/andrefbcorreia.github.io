@@ -1,4 +1,4 @@
-const formFields = [
+const inputs = [
  { 
     id: 'name',
     validations: [
@@ -36,4 +36,4 @@ const formFields = [
   },
 ];
 
-export default formFields;
+export default inputs;

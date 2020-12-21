@@ -22,7 +22,7 @@ const Contacts = () => {
   return (
     <div className="contacts_container">
       <div>
-        <h1>Lets talk</h1>
+        <h1 className="contacts_title">Lets talk</h1>
         <form onSubmit={handleFormSubmit}>
           <InputForm 
             object={input.name}

@@ -10,6 +10,7 @@ textarea {
   font-size: 16px;
   font-family: Cairo-Regular;
   cursor: pointer;
+  color: rgb(66, 62, 88);
 }
 
 textarea:focus {
