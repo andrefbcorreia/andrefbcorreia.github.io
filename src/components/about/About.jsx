@@ -10,13 +10,13 @@ const About = () => (
     </div>
     <div className="about_description">
       <p>
-        My name is <span>André Correia</span>, I was born in Switzerland, lived most of my life in the beautiful south of Portugal 
+        My name is <span>André Correia</span>, I was born in Switzerland, lived most of my life in the shiny south of Portugal 
         and I am a <span>Software Engineer</span> currently working in Lisbon.
       </p>
       <p>
         In high school, I started to enjoy programming and that's why I took <span>Computer Science</span> in 
         <span> FCT NOVA Lisboa</span>, where I develop my knowledge base and passion for building beautiful and 
-        functional platform products.
+        functional web applications.
       </p>
       <p>
         I've been mainly working as a <span>full stack</span> developer with technologies such as <span>React JS</span>, 
