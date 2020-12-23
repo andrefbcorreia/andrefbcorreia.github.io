@@ -11,6 +11,11 @@ exports.handler = (event, context, callback) => {
     secure: true,
   });
 
+  return {
+    statusCode: 400,
+    body: `Error: `,
+  };
+
   transporter.sendMail({
     from: 'andrecorreia@zohomail.eu',
     to: 'andrefbcorreia@gmail.com',
