@@ -18,8 +18,8 @@ exports.handler = async (event, context, callback) => {
     to: 'andrefbcorreia@gmail.com',
     subject: 'Contact from andrefbcorreia.github.io page',
     html: `
-      <h3>Email from ${data.name}<h3>
-      <p>Message: ${data.message}<p>
+      <h3>Email from ${data.name}</h3>
+      <p>Message: ${data.message}</p>
     `,
   }, (err) => {
     if (err) {
