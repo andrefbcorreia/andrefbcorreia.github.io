@@ -1,9 +1,9 @@
 const nodemailer = require('nodemailer');
 
 exports.handler = (event, context, callback) => {
-  const data = JSON.parse(event.body);
+  //const data = JSON.parse(event.body);
   
-  console.log(data);
+  //console.log(data);
   
   const transporter = nodemailer.createTransport({
     host: 'smtp.zoho.eu',
