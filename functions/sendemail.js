@@ -3,12 +3,6 @@ const nodemailer = require('nodemailer');
 exports.handler = async (event, context, callback) => {
   const data = JSON.parse(event.body);
 
-  console.log(data);
-  return {
-    statusCode: 200,
-    message: 'Ok',
-  };
-  
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 587,
@@ -20,20 +14,22 @@ exports.handler = async (event, context, callback) => {
   });
 
   transporter.sendMail({
-    from: 'andrefbcorreia@gmail.com',
+    from: data.email,
     to: 'andrefbcorreia@gmail.com',
     subject: 'Contact from andrefbcorreia.github.io page',
     html: `
-      <h3>Email from me eheh<h3>
-      <p>Data message<p>
+      <h3>Email from ${data.name}<h3>
+      <p>Message: ${data.message}<p>
     `,
   }, (err) => {
     if (err) {
+      console.log("Err", err);
       return {
         statusCode: 400,
         body: `Error: ${err}`
       };
     } else {
+      console.log("All ok")
       return {
         statusCode: 200,
         body: "All ok",
