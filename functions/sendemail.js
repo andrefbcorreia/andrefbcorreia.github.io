@@ -6,8 +6,8 @@ exports.handler = (event, context, callback) => {
   //console.log(data);
   
   const transporter = nodemailer.createTransport({
-    host: 'smtp.zoho.eu',
-    port: 465,
+    host: 'smtp.gmail.com',
+    port: 587,
     secure: true,
   });
 
