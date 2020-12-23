@@ -1,16 +1,15 @@
 const nodemailer = require('nodemailer');
 
-exports.handler =  async (event, context, callback) => {
-  //const data = JSON.parse(event.body);
-  
-  //console.log(data);
-
-  const transporter = nodemailer.createTransport({
-    host: 'smtp.gmail.com',
+exports.handler = (event, context, callback) => {
+  let transporter = nodemailer.createTransport({
+    host: "smtp.gmail.com",
     port: 587,
-    secure: true,
+    secure: false,
+    auth: {
+      user: "andrefbcorreia@gmail.com",
+      pass: "vdkwboxdduxsccna",
+    },
   });
-
 
   transporter.sendMail({
     from: 'andrefbcorreia@gmail.com',
@@ -33,6 +32,7 @@ exports.handler =  async (event, context, callback) => {
       };
     }
   });
+};
 
   // const transporter = nodemailer.createTransport({
   //   host: 'smtp.zoho.eu',
@@ -60,4 +60,4 @@ exports.handler =  async (event, context, callback) => {
   //     });
   //   }
   // });
-};
+//};
