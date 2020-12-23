@@ -1,7 +1,7 @@
 const nodemailer = require('nodemailer');
 
 exports.handler = (event, context, callback) => {
-  const data = JSON.parse(event.body);
+ //const data = JSON.parse(event.body);
 
   return {
     statusCode: 200,
