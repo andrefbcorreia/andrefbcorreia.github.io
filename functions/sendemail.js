@@ -6,7 +6,6 @@ exports.handler = (event, context, callback) => {
   return {
     statusCode: 200,
     message: 'Ok',
-    body: data,
   };
   
   const transporter = nodemailer.createTransport({
