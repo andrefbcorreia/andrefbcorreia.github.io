@@ -5,38 +5,39 @@ exports.handler = (event, context, callback) => {
   
   //console.log(data);
   
-  const transporter = nodemailer.createTransport({
-    host: 'smtp.gmail.com',
-    port: 587,
-    secure: true,
-  });
-
   return {
     statusCode: 400,
     body: `Error: `,
   };
+  
+  // const transporter = nodemailer.createTransport({
+  //   host: 'smtp.gmail.com',
+  //   port: 587,
+  //   secure: true,
+  // });
 
-  transporter.sendMail({
-    from: 'andrecorreia@zohomail.eu',
-    to: 'andrefbcorreia@gmail.com',
-    subject: 'Contact from andrefbcorreia.github.io page',
-    html: `
-      <h3>Email from me eheh<h3>
-      <p>Data message<p>
-    `,
-  }, (err) => {
-    if (err) {
-      return {
-        statusCode: 400,
-        body: `Error: ${err}`
-      };
-    } else {
-      return {
-        statusCode: 200,
-        body: "All ok",
-      };
-    }
-  });
+
+  // transporter.sendMail({
+  //   from: 'andrecorreia@zohomail.eu',
+  //   to: 'andrefbcorreia@gmail.com',
+  //   subject: 'Contact from andrefbcorreia.github.io page',
+  //   html: `
+  //     <h3>Email from me eheh<h3>
+  //     <p>Data message<p>
+  //   `,
+  // }, (err) => {
+  //   if (err) {
+  //     return {
+  //       statusCode: 400,
+  //       body: `Error: ${err}`
+  //     };
+  //   } else {
+  //     return {
+  //       statusCode: 200,
+  //       body: "All ok",
+  //     };
+  //   }
+  // });
 
   // const transporter = nodemailer.createTransport({
   //   host: 'smtp.zoho.eu',
