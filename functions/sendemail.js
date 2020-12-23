@@ -13,7 +13,7 @@ exports.handler =  async (event, context, callback) => {
 
 
   transporter.sendMail({
-    from: 'andrecorreia@zohomail.eu',
+    from: 'andrefbcorreia@gmail.com',
     to: 'andrefbcorreia@gmail.com',
     subject: 'Contact from andrefbcorreia.github.io page',
     html: `
