@@ -21,9 +21,15 @@ exports.handler = (event, context, callback) => {
     `,
   }, (err) => {
     if (err) {
-      console.log("error", err);
+      return {
+        statusCode: 400,
+        body: `Error: ${err}`
+      };
     } else {
-      console.log("All ok");
+      return {
+        statusCode: 200,
+        body: "All ok",
+      };
     }
   });
 
