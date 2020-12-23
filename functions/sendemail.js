@@ -1,8 +1,9 @@
 const nodemailer = require('nodemailer');
 
 exports.handler = async (event, context, callback) => {
- //const data = JSON.parse(event.body);
+  const data = JSON.parse(event.body);
 
+  console.log(data);
   return {
     statusCode: 200,
     message: 'Ok',
