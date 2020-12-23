@@ -6,8 +6,8 @@ exports.handler =  async (event, context, callback) => {
   //console.log(data);
   
   return {
-    statusCode: 400,
-    body: `Error: `,
+    statusCode: 200,
+    body: `Ok`,
   };
   
   // const transporter = nodemailer.createTransport({
