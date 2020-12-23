@@ -1,7 +1,14 @@
 const nodemailer = require('nodemailer');
 
 exports.handler = (event, context, callback) => {
-  let transporter = nodemailer.createTransport({
+  const data = JSON.parse(event.body);
+
+  return {
+    statusCode: 200,
+    body: data,
+  };
+  
+  const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 587,
     secure: false,
