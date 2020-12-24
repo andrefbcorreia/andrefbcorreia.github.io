@@ -8,7 +8,7 @@ const toObject = (array) => {
   for(let i = 0; i < array.length; i++) {
     const id = array[i].id;
     rv[id] = {
-      value: '',
+      value: array[i].value,
       validations: array[i].validations,
       errors: [],
     }

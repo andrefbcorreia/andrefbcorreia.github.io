@@ -1,6 +1,7 @@
 const inputs = [
  { 
     id: 'name',
+    value: 'André Correia',
     validations: [
       { 
         id: 'required',
@@ -10,6 +11,7 @@ const inputs = [
   },
   { 
     id: 'email',
+    value: 'andrefbcorreia@gmail.com',
     validations: [
       { 
         id: 'required',
@@ -23,13 +25,14 @@ const inputs = [
   },
   {
     id: 'message',
+    value: 'Hello world',
     validations: [
       { 
         id: 'required',
         message: 'This field is required'
       },
       { id: 'minLength',
-        value: 20,
+        value: 1,
         message: 'Minimum number of characters: 20'
       },
     ], 

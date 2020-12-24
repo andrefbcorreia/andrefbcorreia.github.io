@@ -1,20 +1,33 @@
-import React from 'react';
-import Button from '../../components/shared/button/Button';
-import InputForm from '../../components/shared/input_form/InputForm';
-
+import React, { useState } from 'react';
+import axios from 'axios';
 import formFields from './formFields';
 import useForm from './useForm';
+
+import Button from '../../components/shared/button/Button';
+import InputForm from '../../components/shared/input_form/InputForm';
 
 import './Contacts.css';
 
 const Contacts = () => {
   const [input, onChange, isValidInput, reset] = useForm(formFields);
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
     if (isValidInput()) {
-      alert("This feature is not working right now");
-      reset();
+      setIsLoading(true);
+      axios.post('/api/sendemail', {
+        email: input.email.value,
+        name: input.name.value,
+        message: input.message.value,
+      })
+      .then(res => {
+        setIsLoading(false);
+      })
+      .catch(err => {
+        console.log("Error log:", err);
+        setIsLoading(false);
+      });
     } 
   };
 
@@ -47,8 +60,9 @@ const Contacts = () => {
             />
           <Button 
             type="submit"
-            label="Submit"
-            />
+            label={isLoading ? "Loading ... " : "Submit" }
+            disabled={isLoading}
+          />
         </form>
       </div>
     </div>
