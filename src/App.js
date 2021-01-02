@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Route,
   Switch,
 } from "react-router-dom";
@@ -12,7 +12,7 @@ import Contacts from './pages/contacts/Contacts';
 import './App.css';
 
 const App = () => (
-  <Router>
+  <HashRouter basename="">
     <div className="wrapper">
       <Header />
       <div className="content">
@@ -22,7 +22,7 @@ const App = () => (
         </Switch>
       </div>
     </div>
-  </Router>
+  </HashRouter>
 );
 
 export default App;
