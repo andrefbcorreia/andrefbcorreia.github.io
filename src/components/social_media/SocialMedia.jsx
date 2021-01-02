@@ -8,13 +8,22 @@ import './SocialMedia.css';
 
 const SocialMedia = () => (
   <div className="social_media_container">
-    <SocialIcon link="https://www.linkedin.com/in/andrefbcorreia/">
+    <SocialIcon 
+      title="linkedin"
+      link="https://www.linkedin.com/in/andrefbcorreia/"
+    >
       <LinkedinIcon />
     </SocialIcon>
-    <SocialIcon link="https://github.com/andrefbcorreia">
+    <SocialIcon
+      title="github" 
+      link="https://github.com/andrefbcorreia"
+    >
       <GithubIcon />
     </SocialIcon>
-    <SocialIcon link="https://www.instagram.com/andrecorreia__/">
+    <SocialIcon
+      title="instagram"
+      link="https://www.instagram.com/andrecorreia__/"
+    >
       <InstagramIcon />
     </SocialIcon> 
   </div>

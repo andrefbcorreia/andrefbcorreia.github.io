@@ -2,10 +2,13 @@ import React from 'react';
 
 import './SocialIcon.css';
 
-const SocialIcon = ({ link, children }) => (
-  <a href={link} target='_blank' rel="noreferrer">
+const SocialIcon = ({ link, title, children }) => (
+  <div className="social_icon_container" onClick={() => window.open(link, '_blank')}>
     {children}
-  </a>
+    {title && (
+      <p className="social_icon_title">{title}</p>
+      )}
+  </div>
 );
 
 export default SocialIcon;
