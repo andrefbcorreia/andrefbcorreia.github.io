@@ -5,9 +5,23 @@
   align-items: center;
 }
 
+.contact_box_row {
+  display: flex;
+}
+
 .contacts_title { 
   margin-top: 20px;
   display: flex;
   justify-content: center;
   color: rgb(66, 62, 88);
+  font-size: 60px;
+}
+
+.contacts_subtitle {
+  margin-top: 60px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  color: rgb(66, 62, 88);
+  font-size: 26px;
 }
