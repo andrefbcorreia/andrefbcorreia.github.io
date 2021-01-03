@@ -2,8 +2,8 @@ import React from 'react';
 
 import './ContactBox.css';
 
-const ContactBox = ({ icon: Icon, description, name, onClick }) => (
-  <div className="cb_container" onClick={onClick}>
+const ContactBox = ({ icon: Icon, description, name }) => (
+  <div className="cb_container">
     <div className="cb_icon">
       <Icon />
     </div>

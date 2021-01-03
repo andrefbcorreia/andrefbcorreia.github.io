@@ -16,21 +16,16 @@ const Contacts = () => (
           icon={GmailIcon}
           description="Send me an email"
           name="andrefbcorreia@gmail.com"
-          onClick={() => alert("click")}
           />
         <ContactBox
           icon={LinkedinIcon}
           description="Send me a message"
           name="linkedin.com/in/andrefbcorreia"
-          hasRightArrow
-          onClick={() => alert("click")}
           />
         <ContactBox
           icon={GithubIcon}
           description="See my repository"
           name="github.com/andrefbcorreia"
-          hasRightArrow
-          onClick={() => alert("click")}
         />
       </div>
     </div>
