@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/andrefbcorreia.github.io/static/css/main.ad71243c.chunk.css",
-    "main.js": "/andrefbcorreia.github.io/static/js/main.00dcd3d9.chunk.js",
-    "main.js.map": "/andrefbcorreia.github.io/static/js/main.00dcd3d9.chunk.js.map",
+    "main.css": "/andrefbcorreia.github.io/static/css/main.8e6ba234.chunk.css",
+    "main.js": "/andrefbcorreia.github.io/static/js/main.ad6985a8.chunk.js",
+    "main.js.map": "/andrefbcorreia.github.io/static/js/main.ad6985a8.chunk.js.map",
     "runtime-main.js": "/andrefbcorreia.github.io/static/js/runtime-main.4d336beb.js",
     "runtime-main.js.map": "/andrefbcorreia.github.io/static/js/runtime-main.4d336beb.js.map",
     "static/js/2.2201f22a.chunk.js": "/andrefbcorreia.github.io/static/js/2.2201f22a.chunk.js",
     "static/js/2.2201f22a.chunk.js.map": "/andrefbcorreia.github.io/static/js/2.2201f22a.chunk.js.map",
     "index.html": "/andrefbcorreia.github.io/index.html",
-    "static/css/main.ad71243c.chunk.css.map": "/andrefbcorreia.github.io/static/css/main.ad71243c.chunk.css.map",
+    "static/css/main.8e6ba234.chunk.css.map": "/andrefbcorreia.github.io/static/css/main.8e6ba234.chunk.css.map",
     "static/js/2.2201f22a.chunk.js.LICENSE.txt": "/andrefbcorreia.github.io/static/js/2.2201f22a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/andrefbcorreia.github.io/static/media/Cairo-SemiBold.0d18a3d1.ttf",
     "static/media/a.6f6cc446.jpg": "/andrefbcorreia.github.io/static/media/a.6f6cc446.jpg",
-    "static/media/github.685d2359.svg": "/andrefbcorreia.github.io/static/media/github.685d2359.svg",
+    "static/media/github.2aeb778e.svg": "/andrefbcorreia.github.io/static/media/github.2aeb778e.svg",
+    "static/media/gmail.4b8ce376.svg": "/andrefbcorreia.github.io/static/media/gmail.4b8ce376.svg",
     "static/media/instagram.0eb25efa.svg": "/andrefbcorreia.github.io/static/media/instagram.0eb25efa.svg",
-    "static/media/linkedin.8841a01e.svg": "/andrefbcorreia.github.io/static/media/linkedin.8841a01e.svg"
+    "static/media/linkedin.034ee5fc.svg": "/andrefbcorreia.github.io/static/media/linkedin.034ee5fc.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4d336beb.js",
     "static/js/2.2201f22a.chunk.js",
-    "static/css/main.ad71243c.chunk.css",
-    "static/js/main.00dcd3d9.chunk.js"
+    "static/css/main.8e6ba234.chunk.css",
+    "static/js/main.ad6985a8.chunk.js"
   ]
 }
