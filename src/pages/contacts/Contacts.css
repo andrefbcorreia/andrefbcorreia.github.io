@@ -28,23 +28,27 @@
 }
 
 @media screen and (max-width: 600px) {
- .contacts_title {
-  margin: 0;
-  font-size: 40px; 
- }
+  .contacts_container {
+    padding-top: 10px;
+  }
+ 
+  .contacts_title {
+    margin: 0;
+    font-size: 40px; 
+  }
 
- .contacts_subtitle {
-  font-size: 20px;
-  margin: 20px;
- }
+  .contacts_subtitle {
+    font-size: 20px;
+    margin: 20px;
+  }
 
- .contact_box_row {
-   display: flex;
-   flex-direction: column;
-   justify-items: center;
- }
+  .contact_box_row {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+  }
 
- .cb_container {
-   margin: 5px;
- }
+  .cb_container {
+    margin: 5px;
+  }
 }
