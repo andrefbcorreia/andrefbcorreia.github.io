@@ -11,9 +11,6 @@ const EXPERIENCES = [
 const Experience = () => (
   <div className="experience_container">
     <div className="experience_title">Experience</div>
-    <div className="experience_subtitle">
-      I've been manly working as a fullstack guy.
-    </div>
     <div>
       {EXPERIENCES.map((exp, key) => (
         <Card key={key} {...exp} />

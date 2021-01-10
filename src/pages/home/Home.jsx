@@ -4,7 +4,6 @@ import logo from '../../assets/a.jpg';
 import About from '../../components/about/About';
 import Experience from '../../components/experience/Experience';
 import Skills from '../../components/skills/Skills';
-import SocialMedia from '../../components/social_media/SocialMedia';
 
 import './Home.css';
 
@@ -17,7 +16,6 @@ const Home = () => (
           <Experience />
           <Skills />
         </div>
-        <SocialMedia />
       </div>
       <div className="a2">
         <img className="a2-img" src={logo} alt='' />
