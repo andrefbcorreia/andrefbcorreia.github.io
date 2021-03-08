@@ -1,28 +1,25 @@
 import React from 'react';
-import {
-  HashRouter,
-  Route,
-  Switch,
-} from "react-router-dom";
 
-import Header from './components/header/Header';
-import Home from './pages/home/Home';
-import Contacts from './pages/contacts/Contacts';
+import About from './components/about/About';
+import Experience from './components/experience/Experience';
+import Skills from './components/skills/Skills';
 
 import './App.css';
 
 const App = () => (
-  <HashRouter basename="">
-    <div className="wrapper">
-      <Header />
-      <div className="content">
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/contacts" component={Contacts} />
-        </Switch>
+  <div className="wrapper">
+    <div className="app_container">
+      <div className="app_content">
+        <div className="a1">
+          <About />
+          <div className="app_child">
+            <Experience />
+            <Skills />
+          </div>
+        </div>
       </div>
-    </div>
-  </HashRouter>
+  </div>
+  </div>
 );
 
 export default App;
