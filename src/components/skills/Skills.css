@@ -4,14 +4,14 @@
 
 .skills_title {
   color: rgb(66, 62, 88);
-  font-size: 22px;
-  font-family: Cairo-Bold;
+  font-size: 16px;
+  font-family: EpilogueMedium;
 }
 
 .skills_list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 350px;
+  width: 100%;
   padding-top: 10px;
 }

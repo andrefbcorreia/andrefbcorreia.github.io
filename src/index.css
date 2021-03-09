@@ -1,28 +1,19 @@
 @font-face {
-  font-family: Cairo-Regular;
-  src: url('./assets/fonts/cairo/Cairo-Regular.ttf');
+  font-family: Epilogue;
+  src: url('./assets/fonts/epilogue/Epilogue-Light.ttf');
 }
 
 @font-face {
-  font-family: Cairo-Bold;
-  src: url('./assets/fonts/cairo/Cairo-Bold.ttf');
-}
-
-@font-face {
-  font-family: Cairo-SemiBold;
-  src: url('./assets/fonts/cairo/Cairo-SemiBold.ttf');
-}
-
-@font-face {
-  font-family: Cairo-Light;
-  src: url('./assets/fonts/cairo/Cairo-Light.ttf');
+  font-family: EpilogueMedium;
+  src: url('./assets/fonts/epilogue/Epilogue-Medium.ttf');
 }
 
 body {
   margin: 0;
+  padding: 0;
   width: 100%;
   height: 100vh;
-  font-family: Cairo-Regular, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: Epilogue, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
   border-color: rgb(245, 245, 245);
   line-height: 1.3;

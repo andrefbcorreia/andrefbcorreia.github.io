@@ -1,21 +1,14 @@
 .about_container {
-  padding-top: 10px;
   padding-bottom: 20px;
 }
 
-.about_title {
-  font-family: Cairo-Regular;
-  color: rgb(66, 62, 88);
-  font-size: 36px;
-}
-
 .about_title_me {
-  font-family: Cairo-Bold;
+  font-family: EpilogueMedium;
   color: rgb(84, 175, 191);
 }
 
 .about_subtitle {
-  font-family: Cairo-SemiBold;
+  font-family: EpilogueMedium;
   color: rgb(66, 62, 88);
   font-size: 18px;
   padding-bottom: 8px;
@@ -28,10 +21,14 @@
 
 .about_description p {
   margin: 8px 0;
-  color: rgb(66, 62, 88);
+  color: #404040;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: 500;
 }
 
 .about_description p span {
-  font-family: Cairo-Bold;
+  font-family: EpilogueMedium;
+  font-weight: 300;
   color: rgb(84, 175, 191);
 }

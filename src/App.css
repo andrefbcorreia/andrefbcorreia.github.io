@@ -1,4 +1,4 @@
-.wrapper {
+/* .wrapper {
   min-height: 100vh;
 }
 
@@ -116,4 +116,45 @@
   .a1 {
     padding: 0 16px; 
   }
+} */
+
+
+.container {
+  min-height: 100%;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.profile-name {
+  font-size: 3em;
+  font-weight: 500;
+  color: #363636;
+}
+
+.profile-job {
+  margin: 0px 0 30px;
+  font-size: 1.8em;
+  color: #363636;
+  font-weight: 600;
+}
+
+.bio {
+  padding: 0 50px;
+  width: 600px;
+}
+
+.me {
+  height: 600px;
+}
+.line {
+  margin: 20px 0;
+  width: 700px;
+  height: 2px;
+  background: rgb(235, 235, 235);
 }
