@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/andrefbcorreia.github.io/static/css/main.50d87d71.chunk.css",
-    "main.js": "/andrefbcorreia.github.io/static/js/main.693804bb.chunk.js",
-    "main.js.map": "/andrefbcorreia.github.io/static/js/main.693804bb.chunk.js.map",
+    "main.css": "/andrefbcorreia.github.io/static/css/main.bf2bdb52.chunk.css",
+    "main.js": "/andrefbcorreia.github.io/static/js/main.9d6b3d26.chunk.js",
+    "main.js.map": "/andrefbcorreia.github.io/static/js/main.9d6b3d26.chunk.js.map",
     "runtime-main.js": "/andrefbcorreia.github.io/static/js/runtime-main.4d336beb.js",
     "runtime-main.js.map": "/andrefbcorreia.github.io/static/js/runtime-main.4d336beb.js.map",
     "static/js/2.d0f08097.chunk.js": "/andrefbcorreia.github.io/static/js/2.d0f08097.chunk.js",
     "static/js/2.d0f08097.chunk.js.map": "/andrefbcorreia.github.io/static/js/2.d0f08097.chunk.js.map",
     "index.html": "/andrefbcorreia.github.io/index.html",
-    "static/css/main.50d87d71.chunk.css.map": "/andrefbcorreia.github.io/static/css/main.50d87d71.chunk.css.map",
+    "static/css/main.bf2bdb52.chunk.css.map": "/andrefbcorreia.github.io/static/css/main.bf2bdb52.chunk.css.map",
     "static/js/2.d0f08097.chunk.js.LICENSE.txt": "/andrefbcorreia.github.io/static/js/2.d0f08097.chunk.js.LICENSE.txt",
     "static/media/index.css": "/andrefbcorreia.github.io/static/media/Epilogue-Medium.7620da4d.ttf",
     "static/media/andre.d1c6f383.jpeg": "/andrefbcorreia.github.io/static/media/andre.d1c6f383.jpeg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.4d336beb.js",
     "static/js/2.d0f08097.chunk.js",
-    "static/css/main.50d87d71.chunk.css",
-    "static/js/main.693804bb.chunk.js"
+    "static/css/main.bf2bdb52.chunk.css",
+    "static/js/main.9d6b3d26.chunk.js"
   ]
 }
