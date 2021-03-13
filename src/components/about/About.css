@@ -1,5 +1,5 @@
 .about_container {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .about_title_me {
@@ -16,12 +16,13 @@
 
 .about_description {
   font-size: 16px;
-  color: rgb(136, 133, 158);
+  color: #292929;
+  line-height: 1.3;
 }
 
 .about_description p {
   margin: 8px 0;
-  color: #404040;
+  color: #292929;
   font-size: 16px;
   line-height: 1.5em;
   font-weight: 500;
@@ -30,5 +31,5 @@
 .about_description p span {
   font-family: EpilogueMedium;
   font-weight: 300;
-  color: rgb(84, 175, 191);
+  color: #3498db
 }

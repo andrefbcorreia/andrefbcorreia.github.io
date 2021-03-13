@@ -1,127 +1,8 @@
-/* .wrapper {
-  min-height: 100vh;
-}
-
-.content {
-  margin: 0 auto;
-}
-
-.app_container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.app_content {
-  display: flex;
-  height: calc(100vh - 60px);
-}
-
-.a1 {
-  flex: 1;
-  padding: 0 75px;
-}
-
-.a2 {
+.container {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1;
-}
-
-.a2-img {
-  width: 100%;
-  height: 100%;
-}
-
-.app_child {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 20px;
-}
-
-
-@media screen and (max-width: 1200px) {
-  .app_child {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .skills_container {
-    padding: 8px 0;
-  }
-
-  .about_container {
-    padding-bottom: 16px;
-    padding-top: 0;
-  } 
-}
-
-@media screen and (max-width: 600px) {
-  .header_content {
-    padding: 0 16px;
-  }
-
-  .menu_btn {
-    padding: 0 4px;
-  }
-
-  .a1 {
-    padding: 0 16px; 
-  }
-
-  .about_container {
-    padding-bottom: 8px;
-  }
-
-  .about_title {
-    font-size: 24px;
-  }
-
-  .about_subtitle {
-    font-size: 15px;
-  }
-
-  .about_description {
-    font-size: 14px;
-  }
-
-  .experience_container {
-    padding: 8px 0;
-  }
-
-  .skills_container {
-    padding: 8px 0;
-  }
-
-  .skills_list {
-    width: 100%;
-  }
-
-  .a2 {
-    display: none;
-  }
-}
-
-@media screen and (max-height: 200px) {
-  .about_container {
-    padding-bottom: 16px;
-    padding-top: 0;
-  }
-
-  .app_child {
-    padding-bottom: 0;
-  }
-
-  .a1 {
-    padding: 0 16px; 
-  }
-} */
-
-
-.container {
-  min-height: 100%;
-  padding: 20px;
 }
 
 .content {
@@ -134,18 +15,18 @@
 .profile-name {
   font-size: 3em;
   font-weight: 500;
-  color: #363636;
+  color: #292929;
 }
 
 .profile-job {
-  margin: 0px 0 30px;
+  margin: 6px 0 30px;
   font-size: 1.8em;
-  color: #363636;
+  color: #292929;
   font-weight: 600;
 }
 
 .bio {
-  padding: 0 50px;
+  padding: 0 75px;
   width: 600px;
 }
 
@@ -157,4 +38,34 @@
   width: 700px;
   height: 2px;
   background: rgb(235, 235, 235);
+}
+
+@keyframes react-icon {
+  100% {
+    transform: rotate(900deg)
+  }
+}
+.react-icon {
+  margin-top: 4px;
+  fill: #292929;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-media {
+  display: flex;
+  margin: 20px 0;
+}
+
+.c {
+  height: 36px;
+  width: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: 'pointer';
+  margin-right: 6px;
 }
