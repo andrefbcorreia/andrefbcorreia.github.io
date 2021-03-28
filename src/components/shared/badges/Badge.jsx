@@ -1,8 +1,8 @@
 import React from 'react';
-import './Badge.css';
+import styles from './Badge.module.scss';
 
 const Badge = ({ skill }) => (
-  <span className="skill_container">
+  <span className={styles.skill_container}>
     {skill}
   </span>
 );

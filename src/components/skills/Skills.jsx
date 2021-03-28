@@ -1,7 +1,7 @@
 import React from 'react';
 import Badge from '../shared/badges/Badge';
 
-import './Skills.css';
+import styles from './Skills.module.scss';
 
 const SKILLS = [
   "JavaScript",
@@ -20,12 +20,10 @@ const SKILLS = [
 ];
 
 const Skills = () => (
-  <div className="skills_container">
-    <div className="skills_list">
-      {SKILLS.map((skill, key) => (
-        <Badge key={key} skill={skill} />
-      ))}
-    </div>
+  <div className={styles.skills_list}>
+    {SKILLS.map((skill, key) => (
+      <Badge key={key} skill={skill} />
+    ))}
   </div>
 );
 

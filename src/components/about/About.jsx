@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './About.css';
+import styles from './About.module.scss';
 
 const About = () => (
-  <div className="about_container">
-    <div className="about_description">
+  <div className={styles.about_container}>
+    <div className={styles.about_description}>
       <p>
         Born in Switzerland, lived most of my life in the shiny south of Portugal 
         and currently working in Lisbon. Took <span>Computer Science</span> in 
