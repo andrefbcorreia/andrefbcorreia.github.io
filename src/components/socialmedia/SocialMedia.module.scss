@@ -1,0 +1,22 @@
+.social_media {
+  display: flex;
+  margin: 20px 0;
+  
+  @keyframes react-icon {
+    100% {
+      transform: rotate(900deg)
+    }
+  }
+  .react-icon {
+    margin-top: 4px;
+    fill: #292929;
+  }
+  
+  a,
+  a:hover,
+  a:focus, 
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+}
