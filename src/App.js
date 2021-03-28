@@ -2,6 +2,7 @@ import React from 'react';
 
 import About from './components/about/About';
 import Skills from './components/skills/Skills';
+import SMCard from './components/smcard/SMCard';
 
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { IoMailOutline } from "react-icons/io5";
@@ -22,21 +23,18 @@ const App = () => (
         <About />
         <Skills />
         <div className="social-media">
-          <div className="c">
-            <a href="https://www.linkedin.com/in/andrefbcorreia/" target='_blank' rel="noreferrer">
-              <FaLinkedinIn size={22} className="react-icon"/>
-            </a>
-          </div>
-          <div className="c">
-            <a href="https://github.com/andrefbcorreia" target='_blank' rel="noreferrer">
-              <FaGithub size={22} className="react-icon" />
-            </a>
-          </div>
-          <div className="c">
-            <a href="mailto:andrefbcorreia@gmail.com">
-              <IoMailOutline size={24} className="react-icon" />
-            </a>
-          </div>
+          <SMCard 
+            link="https://www.linkedin.com/in/andrefbcorreia/"
+            icon={<FaLinkedinIn size={22} className="react-icon"/>}
+          />
+          <SMCard
+            link="https://github.com/andrefbcorreia"
+            icon={<FaGithub size={22} className="react-icon" />}
+          />
+          <SMCard
+            link="mailto:andrefbcorreia@gmail.com"
+            icon={<IoMailOutline size={24} className="react-icon" />}
+          />
         </div>
       </div>
     </div>

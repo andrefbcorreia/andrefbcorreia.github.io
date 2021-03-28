@@ -1,5 +1,5 @@
 import React from 'react';
-import Badge from '../shared/badges/Badge';
+import Badge from '../badges/Badge';
 
 import styles from './Skills.module.scss';
 
